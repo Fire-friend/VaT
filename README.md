@@ -24,6 +24,7 @@ python getNUQ_f.py
 #### VaT Training 
 
 ```
+python -m visdom.server
 python main.py
 ```
 
