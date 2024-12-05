@@ -27,11 +27,32 @@ python getNUQ_f.py
 python main.py
 ```
 
-Training data can be found on [Baidu network disk](https://pan.baidu.com/s/1g7B3PktRzU2xkxHf5N04-A) (pw: rhqs )\. It may take some time to modify the path in the code. Since our method is unpaired, if you want to achieve better real-world detection performance, you can merge synthetic low-quality images and real low-quality images into the trainA folder.
+Training data can be found on [Baidu network disk](https://pan.baidu.com/s/1g7B3PktRzU2xkxHf5N04-A) (pw: rhqs )\. It may take some time to modify the path in the code. 
+
+The pre-trained object detection model follows the official code completely and is trained on clean datasets.
+
+Since our method is unpaired, if you want to achieve better real-world detection performance, you can merge synthetic low-quality images and real low-quality images into the trainA folder.
 
 ## Testing
 
+The [pretrained weight](https://pan.baidu.com/s/1RKTj2iuon5M_f3EItSCmfA)(pw: ggbu ) was trained for 17 epochs, continuing training might yield better results.
+
 ```
-python val.py
+python val.py 
 ```
 
+### Statement
+
+If you are interested in our work, please consider citing the following:
+
+```
+@inproceedings{Wu2025VaT,
+  title={Unsupervised Variational Translator for Bridging Image Restoration and High-Level Vision Tasks},
+  author={Wu, Jiawei
+and Jin, Zhi},
+  booktitle={European Conference on Computer Vision},
+  pages={214--231},
+  year={2025},
+  organization={Springer}
+}
+```
