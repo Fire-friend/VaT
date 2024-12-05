@@ -1,0 +1,28 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org by Microsoft
+# Example usage: python train.py --data coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: E:/connection/VOC/train/Dark # dataset root dir
+train: train_dark.txt # train images (relative to 'path') 118287 images
+val: val_dark.txt # val images (relative to 'path') 5000 images
+test: test_exdark.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+
+# Classes
+names:
+  0: bicycle
+  1: boat
+  2: bottle
+  3: bus
+  4: car
+  5: cat
+  6: chair
+  7: dog
+  8: motorbike
+  9: person
+
