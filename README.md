@@ -53,7 +53,7 @@ If you are interested in our work, please consider citing the following:
 and Jin, Zhi},
   booktitle={European Conference on Computer Vision},
   pages={214--231},
-  year={2025},
+  year={2024},
   organization={Springer}
 }
 ```
